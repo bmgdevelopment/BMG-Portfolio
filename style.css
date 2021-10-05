@@ -142,6 +142,24 @@ nav ul li{
     color: white;
   }
   
+  .resumeBtn2 {
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: 3px solid teal;
+    background: transparent;
+    color: teal;
+    transition: .5s;
+  }
+  
+ .resumeBtn2:hover {
+    filter: drop-shadow(1px 1px 2px rgba(74, 72, 10, 0.694));
+    transform: scale(1.1);
+    border: 2px solid black;
+    background: black;
+    color: white;
+  }
+  
 
   /* About Me */
 .aboutMe, .experienceH2 {
@@ -157,6 +175,7 @@ nav ul li{
   
 }.bmgPicture {
   filter: drop-shadow(1px 1px 10px rgba(28, 155, 184, 0.694));
+  filter: grayscale(100%);
 }
   
 /* Experience & Education  */

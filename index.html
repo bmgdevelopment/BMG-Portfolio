@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>bgportfolio</title>
+  <title>bmgportfolio</title>
   <!--BMG Portfolio-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,8 +19,12 @@
 
 <body style="padding: 0px; margin: 0px;">
   <div class="topSecionDiv">
+
     <nav class="navSection">
-      <img class="bmgLogo" alt="bmgLogo" src="images/bmgDevLogo.png" />
+      <a href="https://www.linkedin.com/in/brittanymgarrett"> <img class="bmgLogo" alt="bmgLogo"
+          src="images/bmgDevLogo.png" />
+      </a>
+
       <ul id="menu">
         <li><a href="#about" class="navLink">ABOUT</a></li>
         <li><a href="#experience" class="navLink">EXPERIENCE</a></li>
@@ -30,19 +34,24 @@
         <li><a href="#contact" class="navLink">CONTACT</a></li>
       </ul>
     </nav>
+
     <div class="nameBox">
       <h1 class="nameTitle" style="font-size: 100px;">
         Brittany Garrett
       </h1>
+
       <p class="developer" style=" display: flex; justify-content: center; color: white; font-size: 35px;">
         SOFTWARE DEVELOPER
       </p>
+
       <div style=" display: flex; justify-content: center;">
         <a href="./files/BMGResume2021.pdf" download>
           <button class="resumeBtn">Download Resume</button>
         </a>
       </div>
+
     </div>
+
   </div>
 
   <main style="margin: 0px; background-color: white;">
@@ -50,8 +59,8 @@
     <div id="about" style="height: 450px; margin: 0 15%; display: flex; flex-direction: row; padding: 10em 0px;">
 
       <div>
-        <img style="border-radius: 50%; height: 350px;" class="bmgPicture" alt="bmgPicture"
-          src="images/profilePicPortfolio.JPG" style="height: 400px;" />
+        <img style="border-radius: 50%; height: 450px;" class="bmgPicture" alt="bmgPicture"
+          src="images/profilePicPortfolio.JPG" />
       </div>
 
       <div style="margin-left: 50px;">
@@ -128,31 +137,67 @@
             • Coordinated with marketing and design teams to develop marketing content
           </p>
 
-        </div>
+          <br />
 
+          <div style="display: flex; justify-content: center;">
+            <p class="aboutMeP" style="font-size: 15px; margin-top: -10px; margin-left: 20px; color: teal;">
+              For additional experience, please download my resume
+            </p>
+          </div>
+
+          <div style=" display: flex; justify-content: center; margin-top: -10px;">
+            <a href="./files/BMGResume2021.pdf" download>
+              <button class="resumeBtn2">Download Resume</button>
+            </a>
+          </div>
+
+        </div>
 
       </div>
 
     </div>
 
     <!-- EDUCATION SECTION **************************** -->
-    <div style="height: 300px; margin: 0 15%; display: flex; flex-direction: row; padding: 10em 0px;">
 
-      <div id="education" style="margin-left: 50px;">
-        <h2 class="aboutMe" style="font-size: 50px; margin-top: -10px; color: gray">Education</h2>
-        <h2 class="school" style="font-size: 30px; margin-top: -10px; color: teal;">
-          Nashville Software School
-        </h2>
-        <p class="aboutMeP" style="font-size: 20px; margin-top: -15px">
-          Software Engineering and Development | Present
-        </p>
+    <div id="education" style="height: 300px; margin: 0 15%; padding: 10em 0px;">
+
+      <h2 class="aboutMe" style="font-size: 50px; margin-top: -10px; color: gray">Education</h2>
+
+      <div>
+
+        <div style="display: flex; flex-direction: row;">
+          <div>
+            <img style="height: 100px; margin-top: -20px;" src="https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/28/original/nss-logo-compact.png" alt="nssLogo"/>
+          </div>
+          
+          <div style="margin-left: 20px;">
+            <h2 class="school" style="font-size: 30px; margin-top: -10px; color: teal;">
+              Nashville Software School
+            </h2>
+            <p class="aboutMeP" style="font-size: 20px; margin-top: -15px">
+              Software Engineering and Development | Present
+            </p>
+          </div>
+        </div>
+        
         <br />
-        <h2 class="school" style="font-size: 30px; margin-top: -10px; color: teal;">
-          University of Illinois at Urbana-Champaign
-        </h2>
-        <p class="aboutMeP" style="font-size: 20px; margin-top: -15px">
-          Bachelor of Science in Public Health
-        </p>
+        <br />
+
+        <div style="display: flex; flex-direction: row;">
+          <div style="margin-left: 15px;">
+            <img style="height: 100px; margin-top: -20px;" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Illinois_Block_I.png" alt="nssLogo"/>
+          </div>
+          
+          <div style="margin-left: 40px;">
+            <h2 class="school" style="font-size: 30px; margin-top: -10px; color: teal;">
+              University of Illinois at Urbana-Champaign
+            </h2>
+            <p class="aboutMeP" style="font-size: 20px; margin-top: -15px">
+              Bachelor of Science in Public Health
+            </p>
+          </div>
+        </div>  
+
       </div>
 
     </div>
@@ -160,7 +205,7 @@
 
 
     <!-- PROJECTS SECTION **************************** -->
-    <div
+    <div id="projects"
       style="height: 1100px; padding: 10em 15%; background-color:rgba(211, 211, 211, 0.24); border-top: .5px solid lightgray; border-bottom: .5px solid lightgray">
 
       <div style="display: flex; flex-direction: column;">
@@ -171,7 +216,7 @@
         </h2>
 
         <!-- PROJECT 1 -->
-        <div id="projects" class="projectDiv" style="height: 299px; display: flex; flex-direction: row; background-color: white; border: .5px solid rgba(128, 128, 128, 0.256); margin-bottom: 20px; filter: drop-shadow(1px 1px 5px rgba(67, 67, 67, 0.249));
+        <div class="projectDiv" style="height: 299px; display: flex; flex-direction: row; background-color: white; border: .5px solid rgba(128, 128, 128, 0.256); margin-bottom: 20px; filter: drop-shadow(1px 1px 5px rgba(67, 67, 67, 0.249));
           ">
 
           <div>
@@ -241,10 +286,10 @@
     </div>
 
     <!-- CONTACT SECTION **************************** -->
-    <div class="contactBkgd">
+    <div id="contact" class="contactBkgd">
       <div style="height: 300px; margin: 0 15%; display: flex; flex-direction: row; padding: 10em 0px;">
 
-        <div id="contact" style="margin-left: 50px;">
+        <div style="margin-left: 50px;">
           <h2 class="aboutMe" style="font-size: 50px; margin-top: -10px; color: rgb(255, 255, 255)">Contact</h2>
           <h2 class="school" style="font-size: 30px; margin-top: -10px; color: rgb(255, 255, 255);">
             Let's Connect!
