@@ -215,10 +215,11 @@ nav ul li{
     color: white;
     text-decoration: none;
     text-shadow: 2px 2px 6px #646464;
-    transition: .5s;
+    transition: 2s;
   }
   
-  a.navLink:hover {
+  .navLink:hover, nav ul li:hover {
+    transform: scale(1.15);
     color:gold;
   }
   
@@ -268,6 +269,12 @@ nav ul li{
       color:rgb(28, 220, 220);
       font-size: 40px;
       padding: 20px 10px;
+    }
+    
+    .item i:hover{
+      /* border: 2px solid purple; */
+      filter: drop-shadow(1px 1px 20px rgba(120, 247, 224, 0.694));
+      transform: scale(1.2);
     }
 
   /*Desktop Version*/
