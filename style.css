@@ -167,18 +167,21 @@ nav ul li{
   font-weight: 100;
 }
 
-.aboutMeP, .skillsP {
+.aboutMeP {
   font-size: 20px;
   color: gray;
   line-height: 35px;
   font-family: 'Open Sans', sans-serif;
 }
 
-.skillsP {
+.skillP {
   font-size: 20px;
   color: gray;
   line-height: 35px;
   font-family: 'Open Sans', sans-serif;
+  border: 3px solid white;
+  border-radius: 40px;
+  padding: 10px 15px;
 }
 
 .bmgPicture {
