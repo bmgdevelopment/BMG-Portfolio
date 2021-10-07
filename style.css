@@ -30,6 +30,11 @@
     /* overflow: hidden; */
 }  
 
+  .skillsBkgd {
+    background: url(images/plainTealBkgd.png);
+    /* background-color: rgba(128, 128, 128, 0.639); */
+}  
+
   /*Main section's margins for better centering of text*/
   main {
     margin-left: 20px;
