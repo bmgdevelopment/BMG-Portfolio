@@ -243,7 +243,30 @@ nav ul li{
   padding: 5em 0px;
 }
 
+/* Skills */
+.skillsSec {
+  height: 400px; 
+  margin: 0 5%; 
+  display: flex; 
+  flex-direction: column; 
+  padding: 4em 0px;
+}
+
+.skillIconDiv {
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
   /* Projects */
+#projects {
+  height: 1500px; 
+  padding: 6em 15% 10em 15%; 
+  background-color:rgba(211, 211, 211, 0.24); 
+  border-top: .5px solid lightgray; 
+  border-bottom: .5px solid lightgray"
+}
+
   .ytVidIcon {
     transition: .5s;
   }
@@ -274,6 +297,25 @@ nav ul li{
     background: black;
     color: white;
   }
+
+  .projectDiv {
+    height: 700px; 
+    display: flex; 
+    flex-direction: column; 
+    background-color: white; 
+    border: .5px solid rgba(128, 128, 128, 0.256); 
+    margin-bottom: 20px; filter: drop-shadow(1px 1px 5px rgba(67, 67, 67, 0.249));
+  }
+
+.projectImgDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.projectImg {
+  height: 300px;
+  margin-top: 20px;
+}
 
   /*Link specifications*/
   .navLink {
@@ -342,7 +384,7 @@ nav ul li{
     }
 
   /*Desktop Version*/
-   @media all and (min-width: 800px) {
+   @media all and (min-width: 1350px) {
     .center {
       display: block;
       margin-left: auto;
@@ -574,14 +616,38 @@ nav ul li{
   .jobDiv {
     margin-bottom: 10px;
   }
-  
+
   #education {
     height: 300px; 
     margin: 0 15%; 
     padding: 10em 0px;
   }
-  
+
+  /* Skills */
+.skillsSec {
+  height: 200px; 
+  margin: 0 10%; 
+  display: flex; 
+  flex-direction: column; 
+  padding: 10em 0px;
+}
+
+.skillIconDiv {
+  margin-left: 50px; 
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
     /* Projects */
+    #projects {
+      height: 700px; 
+      padding: 6em 15% 10em 15%; 
+      background-color:rgba(211, 211, 211, 0.24); 
+      border-top: .5px solid lightgray; 
+      border-bottom: .5px solid lightgray"
+    }
+    
     .ytVidIcon {
       transition: .5s;
     }
@@ -613,6 +679,15 @@ nav ul li{
       color: white;
     }
   
+    .projectDiv {
+      height: 299px; 
+      display: flex; 
+      flex-direction: row; 
+      background-color: white; 
+      border: .5px solid rgba(128, 128, 128, 0.256); 
+      margin-bottom: 20px; filter: drop-shadow(1px 1px 5px rgba(67, 67, 67, 0.249));
+    }
+
     /*Link specifications*/
     .navLink {
       color: white;

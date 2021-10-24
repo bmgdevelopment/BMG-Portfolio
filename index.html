@@ -30,8 +30,8 @@
         <li><a href="#about" class="navLink">ABOUT</a></li>
         <li><a href="#experience" class="navLink">EXPERIENCE</a></li>
         <li><a href="#education" class="navLink">EDUCATION</a></li>
-        <li><a href="#projects" class="navLink">PROJECTS</a></li>
         <li><a href="#skills" class="navLink">SKILLS</a></li>
+        <li><a href="#projects" class="navLink">PROJECTS</a></li>
         <!-- <li><a href="#contact" class="navLink">CONTACT</a></li> -->
       </ul>
     </nav>
@@ -202,13 +202,13 @@
 
     <!-- SKILLS SECTION **************************** -->
     <div id="skills" class="contactBkgd skillsBkgd">
-      <div style="height: 200px; margin: 0 10%; display: flex; flex-direction: column; padding: 10em 0px;">
+      <div class="skillsSec">
 
         <div style="display: flex; justify-content: center;">
           <h2 class="aboutMe" style="font-size: 50px; margin-top: -10px; color: rgb(255, 255, 255)">Skills</h2>
         </div>
 
-        <div style="margin-left: 50px; display: flex; justify-content: center; flex-wrap: wrap;">
+        <div class="skillIconDiv">
           <img style="height: 150px;" alt="techIcon" src="images/techIcons/1.png" />
           <img style="height: 150px;" alt="techIcon" src="images/techIcons/2.png" />
           <img style="height: 150px;" alt="techIcon" src="images/techIcons/8.png" />
@@ -253,9 +253,7 @@
 
 
     <!-- PROJECTS SECTION **************************** -->
-    <div id="projects"
-      style="height: 700px; padding: 6em 15% 10em 15%; background-color:rgba(211, 211, 211, 0.24); border-top: .5px solid lightgray; border-bottom: .5px solid lightgray">
-
+    <div id="projects">
       <div style="display: flex; flex-direction: column;">
 
         <h2 class="experienceH2 projectsH2"
@@ -264,11 +262,10 @@
         </h2>
 
         <!-- PROJECT 1 -->
-        <div class="projectDiv" style="height: 299px; display: flex; flex-direction: row; background-color: white; border: .5px solid rgba(128, 128, 128, 0.256); margin-bottom: 20px; filter: drop-shadow(1px 1px 5px rgba(67, 67, 67, 0.249));
-          ">
+        <div class="projectDiv">
 
-          <div>
-            <img src="images/TrendagoThumbnail.png" alt="TrendagoThumbnail" />
+          <div class="projectImgDiv">
+            <img class="projectImg" src="images/TrendagoThumbnail.png" alt="TrendagoThumbnail" />
           </div>
 
           <div style="padding: 60px 60px;">
@@ -295,9 +292,10 @@
         </div>
 
         <!-- PROJECT 2 -->
-        <div id="projects" class="projectDiv"
-          style="height: 299px; display: flex; flex-direction: row; background-color: white; border: .5px solid rgba(128, 128, 128, 0.256); margin-bottom: 20px; filter: drop-shadow(1px 1px 5px rgba(67, 67, 67, 0.249));">
-
+        <div class="projectDiv">
+          <div class="projectImgDiv">
+            <img class="projectImg" src="images/GiffygramThumbnail.png" alt="GiffygramThumbnail" />
+          </div>
           <div style="padding: 60px 60px;">
             <h2 class="jobTitleName" style="font-size: 30px; margin-top: -10px; color: teal;">
               Giffygram
@@ -309,9 +307,6 @@
             </p>
             <button class="projectBtn"><a class="projectLink" style="list-style: none; text-decoration: none;"
                 href="https://github.com/bmgdevelopment/giffygram">Launch Github Repo</a></button>
-          </div>
-          <div>
-            <img src="images/GiffygramThumbnail.png" alt="GiffygramThumbnail" />
           </div>
 
 
